@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calsty.css">
+</head>
+<body>
+    <h1>Welcome to VEERU's  Calculator</h1>
+    <div class="gim">
+        <img src="bmiu1.jpeg" class="oem">
+    </div>
+    <div class="ni">
+        <label class="nil1">Number 1:</label>
+        <input type="number" name="" id="ni1" class="ni1" required value="addition"><br><br>
+        <label class="nil2">Number 2:</label>
+        <input type="number" name="" id="ni2" class="ni2" required value="addition">
+    </div>
+    <div class="sb">
+        <button type="button" id="b1" onclick="addition()">ADD</button>
+        <button type="button" id="b2" onclick="sub()">SUB</button>
+        <button type="button" id="b3" onclick="mul()">MULTIPLY</button>
+        <button type="button" id="b4" onclick="divide()">DIVIDE</button>
+    </div>
+    <div class="as">
+        <h2 class="ash">Answer: </h2>
+        <p id="ans" class="ans"></p>
+    </div>
+    <script>
+        function addition(){
+            let n1 = Number(document.getElementById('ni1').value);
+            let n2 = Number(document.getElementById('ni2').value); 
+            document.getElementById('ans').innerHTML=n1+n2;
+        }
+        function sub(){
+            let n1 = Number(document.getElementById('ni1').value);
+            let n2 = Number(document.getElementById('ni2').value);
+            document.getElementById('ans').innerHTML=n1-n2;
+        }
+        function mul(){
+            let n1 = Number(document.getElementById('ni1').value);
+            let n2 = Number(document.getElementById('ni2').value);
+            document.getElementById('ans').innerHTML=n1*n2;
+        }
+        function divide(){
+            let n1 = Number(document.getElementById('ni1').value);
+            let n2 = Number(document.getElementById('ni2').value);
+            document.getElementById('ans').innerHTML=n1/n2;
+        }
+    </script>
+</body>
+</html>

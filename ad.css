@@ -1,0 +1,301 @@
+.c1{
+    top: 0;
+} 
+.bname{
+    background-image: linear-gradient(blueviolet,aqua);
+}
+.h1{
+    width: 800px;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    background-color: white;
+    color:black;
+    box-shadow: 5px 5px green;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    animation: lig 1.2s linear infinite;
+    width: 100%;
+    border-radius: 8px;
+    padding-top: 30px;
+    top: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+@keyframes lig{
+    0%{
+      filter:hue-rotate(0deg) ;
+    }
+    100%{
+      filter: hue-rotate(90deg);
+      }
+}
+.h2{
+    color: black;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    width: 250px;
+    box-shadow: 4px 4px deepskyblue;
+    border-radius: 6px;
+    padding-top: 15px;
+    text-align: center;
+    height: 60px;
+}
+.v1{
+    width: 255px;
+    background-image: linear-gradient(blue,deepskyblue);
+    margin-right: 150px;
+    margin-top: 18px;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+}
+.c2{
+    display: flex;
+}
+.c4{
+    display: flex;
+}
+.va1{
+    font-size: 35px;
+    text-decoration: none;
+    height: 63px;
+    width: 255px;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    animation: coch 1.5s linear infinite;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: 55px;
+    background-color: white;
+    box-shadow: 4px 4px deepskyblue;
+    border-radius: 6px;
+}
+.va2{
+    font-size: 35px;
+    text-decoration: none;
+    height: 63px;
+    width: 255px;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    margin-left: 240px;
+    margin-top: 55px;
+    background-color: white;
+    box-shadow: 4px 4px deepskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 6px;
+    font-weight: bold;
+}
+@keyframes coch{
+    0%{
+        color: #fff;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: darkblue;
+    }
+    100%{
+        color: darkorchid;
+    }
+}
+.u1{
+    width: 290px;
+    height: 490px;
+    background-color: black;
+    border-radius: 4px;
+    background-size: cover;
+    margin-left: 75px;
+}
+
+.c3{
+    margin-top: 20px;
+    background: url(b0.png);
+    background-size: cover;
+    text-decoration: none;
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 2px grey;
+    padding-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+.an{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-size: 27px;
+    font-weight: bolder;
+    animation: has 4s linear infinite;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.aa{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    animation: has 4s linear infinite;
+    font-weight: bolder;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ag{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px; text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-weight: bolder;
+    animation: has 4s linear infinite;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ae{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-weight: bolder;
+    animation: has 4s linear infinite;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ac{
+    color: black;
+    animation: has 4s linear infinite;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.as{
+    color: black;
+    text-decoration: none;
+    animation: has 4s linear infinite;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ar{
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    animation: has 4s linear infinite;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ap{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    animation: has 4s linear infinite;
+    font-size: 27px;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-shadow: 0 0 15px yellow,0 0 25px yellow,0 0 35px yellow;
+}
+@keyframes has{
+    0%{
+       color: black;
+    }
+    50%{
+        filter: hue-rotate(45deg);
+    }
+    100%{
+        color: white;
+    }
+}
+.c5{
+    background-image: linear-gradient(rgb(196, 30, 30),rgb(222, 222, 19));
+    width: 320px;
+    display: block;
+    margin-left: 150px;
+    height: 465px;
+    margin-top: 20px;
+}
+.im{
+   width: 250px;
+   margin-top: 20px;
+   height: 330;
+   margin-left: 35px;
+}
+.h5{
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 180px;
+    animation: bl 1s linear infinite;
+}
+@keyframes bl{
+    0%{
+        text-decoration: none;
+    }
+    50%{
+        color: #fff;
+        background-color: black;
+    }
+    100%{
+        color: black;
+        background-color: white;
+    }
+}
+.fifo{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+}
+.ds{
+    animation: vanish 2.5s forwards;
+}
+@keyframes vanish{
+    0%{
+        opacity: 100%;
+    }
+    25%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
